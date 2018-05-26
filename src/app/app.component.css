@@ -22,7 +22,7 @@
   }
   .example-sidenav-content{
     display: flex;
-    width:150px;
+    width:auto;
   align-items: center;
   }
   .button-align{
@@ -49,4 +49,11 @@
 }
 .margin-tp {
   margin-top: 26px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

@@ -6,6 +6,10 @@ export const routes: Routes = [
     {
         component:WelcomePage,
         path: '',
+        // children: [{
+        //     path:'whatsNew',
+        //     loadChildren:'./modules/whatsnew/whatsnew.module#WhatsNewModule'
+        // }]
     },
     {
         path: 'accntactivate',
